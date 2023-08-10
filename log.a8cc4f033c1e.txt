@@ -1,0 +1,242 @@
+0000.000 (0) Opened log file at time: Tue, 01 Aug 2023 02:25:14 +0000 on https://2learnwp.brookhavencollege.edu/Nas
+0000.035 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 7.2.24-0ubuntu0.18.04.17 (apache2handler, Linux bhclwp 4.15.0-211-generic #222-Ubuntu SMP Tue Apr 18 18:55:06 UTC 2023 x86_64) MySQL: 10.4.12-MariaDB-1:10.4.12+maria~bionic-log (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.6M | 6M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.047 (0) Free space on disk containing Updraft's temporary directory: 68346.8 MB
+0000.073 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.088 (0) Semaphore (fd, wp_options) being initialised
+0000.174 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.242 (0) Set semaphore last lock (fd) time to 2023-08-01 02:25:14
+0000.260 (0) Semaphore lock (fd) complete
+0000.338 (0) Backup run: resumption=0, nonce=a8cc4f033c1e, file_nonce=a8cc4f033c1e begun at=1690856714 (0s ago), job type=backup
+0000.401 (0) Scheduling a resumption (1) after 300 seconds (1690857014) in case this run gets aborted
+0000.456 (0) Checking if we have a zip executable available
+0000.507 (0) Creation of backups of directories: beginning
+0000.576 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.660 (0) Total entities for the zip file: 509 directories, 2600 files (0 skipped as non-modified), 65.8 MB
+0000.689 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.708 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.736 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.780 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.807 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.849 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.865 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.889 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.906 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.940 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.955 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 2600 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.413 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1100 files added (on-disk size: 5572.2 KB)
+0002.427 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1200 files added (on-disk size: 5572.2 KB)
+0002.452 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1300 files added (on-disk size: 5572.2 KB)
+0002.476 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1400 files added (on-disk size: 5572.2 KB)
+0002.504 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1500 files added (on-disk size: 5572.2 KB)
+0002.539 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1600 files added (on-disk size: 5572.2 KB)
+0002.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.4 MB, 2600 files batched, 644 (1645) added so far); re-opening (prior size: 5572.2 KB)
+0005.001 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3 s, rate: 8523.2 KB/s)
+0005.115 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1736960411072, normalised_time=3.0035779264514, max_time=5.0425300598145, data points known=1, old_max_bytes=26214400, new_max_bytes=52366345)
+0005.177 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1700 files added (on-disk size: 12473 KB)
+0005.185 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1800 files added (on-disk size: 12473 KB)
+0005.212 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 1900 files added (on-disk size: 12473 KB)
+0005.236 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2000 files added (on-disk size: 12473 KB)
+0005.270 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2100 files added (on-disk size: 12473 KB)
+0005.285 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2200 files added (on-disk size: 12473 KB)
+0005.309 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2300 files added (on-disk size: 12473 KB)
+0005.328 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2400 files added (on-disk size: 12473 KB)
+0005.378 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2500 files added (on-disk size: 12473 KB)
+0005.443 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.tmp: 2600 files added (on-disk size: 12473 KB)
+0007.676 (0) Creating zip file manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.list-temp.tmp)
+0008.038 (0) Successfully created zip file manifest (size: 201537)
+0008.382 (0) Created plugins zip (0) - 20272.5 KB in 7.8 s (2614.5 KB/s) (sha1: 30993468974dd49080ab9f9166a857b2e3ff75d0, sha256: 5bc944adcddad1a2f2964a93be682ada8f6a1ba1d44e4ccfc7cbfe700740f309)
+0008.447 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.463 (0) No remote despatch: user chose no remote backup service
+0008.497 (0) Recording as successfully uploaded: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip
+0008.533 (0) Deleting zip manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip.list.tmp)
+0008.585 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.596 (0) Number of backup sets in history: 0; groups (db): 1
+0008.619 (0) Number of backup sets in history: 0; groups (files): 1
+0008.635 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0008.756 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.799 (0) Total entities for the zip file: 131 directories, 652 files (0 skipped as non-modified), 16.8 MB
+0008.817 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.845 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.868 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.894 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.923 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.949 (0) Zip: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0010.027 (0) Creating zip file manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.list-temp.tmp)
+0010.048 (0) Successfully created zip file manifest (size: 42871)
+0010.297 (0) Created themes zip (0) - 13818.6 KB in 1.5 s (9196.7 KB/s) (sha1: 211ae5e0e157188998b3c18d6f61095963807a42, sha256: 52e31f363ee7e5a8b13360c2a9ba16697c7ebddcd77d0a70ceb8a451cd44524f)
+0010.372 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.396 (0) No remote despatch: user chose no remote backup service
+0010.455 (0) Recording as successfully uploaded: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip
+0010.499 (0) Deleting zip manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip.list.tmp)
+0010.542 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.570 (0) Number of backup sets in history: 0; groups (db): 1
+0010.599 (0) Number of backup sets in history: 0; groups (files): 1
+0010.979 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.100 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.115 (0) Looking for candidates to backup in: /var/www/html/Nas/wp-content/uploads
+0011.139 (0) finding files: 2023: adding to list (1)
+0011.163 (0) finding files: elementor: adding to list (2)
+0011.197 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.239 (0) Total entities for the zip file: 5 directories, 80 files (0 skipped as non-modified), 6 MB
+0011.449 (0) Creating zip file manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-uploads.zip.list-temp.tmp)
+0011.467 (0) Successfully created zip file manifest (size: 4672)
+0011.633 (0) Created uploads zip (0) - 6142.4 KB in 0.4 s (15688.4 KB/s) (sha1: 3093ebe252064b5d05ee6ad08c8179422251afef, sha256: e6f0bd67737e32abaf321fc723ea1db63a3d92beee3f5814d5342a056dcdfefa)
+0011.686 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.720 (0) No remote despatch: user chose no remote backup service
+0011.733 (0) Recording as successfully uploaded: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-uploads.zip
+0011.772 (0) Deleting zip manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-uploads.zip.list.tmp)
+0011.818 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.843 (0) Number of backup sets in history: 0; groups (db): 1
+0011.858 (0) Number of backup sets in history: 0; groups (files): 1
+0011.892 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.990 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.002 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.025 (0) Looking for candidates to backup in: /var/www/html/Nas/wp-content
+0012.042 (0) finding files: updraft: skipping: this is the updraft directory
+0012.076 (0) finding files: index.php: adding to list (1)
+0012.087 (0) finding files: uploads: skipping: this is the uploads directory
+0012.110 (0) finding files: plugins: skipping: this is the plugins directory
+0012.135 (0) finding files: upgrade: skipping: excluded by options
+0012.169 (0) finding files: themes: skipping: this is the themes directory
+0012.208 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0012.277 (0) Creating zip file manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-others.zip.list-temp.tmp)
+0012.299 (0) Successfully created zip file manifest (size: 43)
+0012.376 (0) Created others zip (0) - 0.1 KB in 0.2 s (0.8 KB/s) (sha1: 33e7bff73e98c40fc96f8620fb3210a50df83c44, sha256: e6dc210300504e9c0b285df900ccd2aa7395f0107bd694b223090064a064915a)
+0012.440 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.468 (0) No remote despatch: user chose no remote backup service
+0012.488 (0) Recording as successfully uploaded: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-others.zip
+0012.537 (0) Deleting zip manifest (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-others.zip.list.tmp)
+0012.573 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.590 (0) Number of backup sets in history: 0; groups (db): 1
+0012.630 (0) Number of backup sets in history: 0; groups (files): 1
+0012.664 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0012.785 (0) Saving backup status to database (elements: 8)
+0012.837 (0) Beginning creation of database dump (WordPress DB)
+0012.848 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0012.889 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0012.947 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1542 bytes total)
+0012.961 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0013.051 (0) Table wp_options: Total expected rows (via COUNT): 227
+0013.080 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.225 (0) Table wp_options: Rows added in this batch (next record: 312): 223 (uncompressed bytes in this segment=2652432) in 0.20 seconds
+0013.323 (0) Table wp_options: finishing file(s) (2, 497.1 KB)
+0013.375 (0) Table wp_users: Total expected rows (via COUNT): 2
+0013.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.432 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1501) in 0.06 seconds
+0013.500 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0013.568 (0) Table wp_usermeta: Total expected rows (via COUNT): 40
+0013.592 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.650 (0) Table wp_usermeta: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=3323) in 0.10 seconds
+0013.776 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0013.851 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0013.897 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.07 seconds
+0013.989 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0014.038 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0014.048 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.089 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2097) in 0.05 seconds
+0014.167 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0014.204 (0) Table wp_links: Total expected rows (via COUNT): 0
+0014.254 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.05 seconds
+0014.347 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0014.422 (0) Table wp_postmeta: Total expected rows (via COUNT): 92
+0014.439 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.505 (0) Table wp_postmeta: Rows added in this batch (next record: 93): 92 (uncompressed bytes in this segment=30637) in 0.11 seconds
+0014.600 (0) Table wp_postmeta: finishing file(s) (2, 5.3 KB)
+0014.669 (0) Table wp_posts: Total expected rows (via COUNT): 51
+0014.692 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.713 (0) Table wp_posts: Rows added in this batch (next record: 56): 51 (uncompressed bytes in this segment=91238) in 0.07 seconds
+0014.819 (0) Table wp_posts: finishing file(s) (2, 11.5 KB)
+0014.868 (0) Table wp_term_relationships: Total expected rows (approximate): 13
+0014.907 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 13 (uncompressed bytes in this segment=853) in 0.04 seconds
+0014.975 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0015.048 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 18
+0015.072 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.126 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1455) in 0.09 seconds
+0015.217 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0015.343 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0015.395 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.08 seconds
+0015.499 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0015.555 (0) Table wp_terms: Total expected rows (via COUNT): 18
+0015.568 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.616 (0) Table wp_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1308) in 0.06 seconds
+0015.689 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0015.727 (0) Table wp_e_events: Total expected rows (via COUNT): 1
+0015.757 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.783 (0) Table wp_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=804) in 0.06 seconds
+0015.896 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0015.955 (0) Table wp_expm_hiiden_content: Total expected rows (via COUNT): 0
+0016.018 (0) Table wp_expm_hiiden_content: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=660) in 0.08 seconds
+0016.109 (0) Table wp_expm_hiiden_content: finishing file(s) (2, 0.4 KB)
+0016.158 (0) Table wp_expm_maker: Total expected rows (via COUNT): 0
+0016.179 (0) Table wp_expm_maker: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=592) in 0.02 seconds
+0016.238 (0) Table wp_expm_maker: finishing file(s) (2, 0.3 KB)
+0016.280 (0) Table wp_expm_maker_pages: Total expected rows (via COUNT): 0
+0016.312 (0) Table wp_expm_maker_pages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=493) in 0.03 seconds
+0016.364 (0) Table wp_expm_maker_pages: finishing file(s) (2, 0.3 KB)
+0016.474 (0) Table wp_find_and_replace: Total expected rows (via COUNT): 0
+0016.491 (0) Table wp_find_and_replace: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=496) in 0.04 seconds
+0016.583 (0) Table wp_find_and_replace: finishing file(s) (2, 0.3 KB)
+0016.618 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_options.table.tmpr313.gz (1/17/fopen): adding to final database dump
+0016.642 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_options.table.gz (2/17/fopen): adding to final database dump
+0016.656 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_users.table.tmpr3.gz (3/17/fopen): adding to final database dump
+0016.675 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_users.table.gz (4/17/fopen): adding to final database dump
+0016.702 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_usermeta.table.tmpr41.gz (5/17/fopen): adding to final database dump
+0016.721 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_usermeta.table.gz (6/17/fopen): adding to final database dump
+0016.744 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_commentmeta.table.tmpr0.gz (7/17/fopen): adding to final database dump
+0016.767 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_commentmeta.table.gz (8/17/fopen): adding to final database dump
+0016.790 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_comments.table.tmpr2.gz (9/17/fopen): adding to final database dump
+0016.818 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_comments.table.gz (10/17/fopen): adding to final database dump
+0016.839 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_links.table.tmpr0.gz (11/17/fopen): adding to final database dump
+0016.867 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_links.table.gz (12/17/fopen): adding to final database dump
+0016.882 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_postmeta.table.tmpr94.gz (13/17/fopen): adding to final database dump
+0016.911 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_postmeta.table.gz (14/17/fopen): adding to final database dump
+0016.930 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_posts.table.tmpr57.gz (15/17/fopen): adding to final database dump
+0016.986 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_posts.table.gz (16/17/fopen): adding to final database dump
+0017.004 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_term_relationships.table.tmpr100001.gz (17/17/fopen): adding to final database dump
+0017.028 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_term_relationships.table.gz (18/17/fopen): adding to final database dump
+0017.043 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_term_taxonomy.table.tmpr19.gz (19/17/fopen): adding to final database dump
+0017.077 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_term_taxonomy.table.gz (20/17/fopen): adding to final database dump
+0017.089 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_termmeta.table.tmpr0.gz (21/17/fopen): adding to final database dump
+0017.113 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_termmeta.table.gz (22/17/fopen): adding to final database dump
+0017.130 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_terms.table.tmpr19.gz (23/17/fopen): adding to final database dump
+0017.170 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_terms.table.gz (24/17/fopen): adding to final database dump
+0017.186 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_e_events.table.tmpr2.gz (25/17/fopen): adding to final database dump
+0017.210 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_e_events.table.gz (26/17/fopen): adding to final database dump
+0017.228 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_hiiden_content.table.tmpr0.gz (27/17/fopen): adding to final database dump
+0017.262 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_hiiden_content.table.gz (28/17/fopen): adding to final database dump
+0017.272 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_maker.table.tmpr0.gz (29/17/fopen): adding to final database dump
+0017.296 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_maker.table.gz (30/17/fopen): adding to final database dump
+0017.314 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_maker_pages.table.tmpr0.gz (31/17/fopen): adding to final database dump
+0017.348 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_expm_maker_pages.table.gz (32/17/fopen): adding to final database dump
+0017.364 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_find_and_replace.table.tmpr0.gz (33/17/fopen): adding to final database dump
+0017.387 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db-table-wp_find_and_replace.table.gz (34/17/fopen): adding to final database dump
+0017.410 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db.gz: finished writing out complete database file (521.7 KB)
+0017.521 (0) Total database tables backed up: 17 (backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db.gz, size: 534349, sha1: 070fa659e4774238f7a1cb26817ecd4eb12daadd, sha256: c909d11c394bee2b02e1ea1341daef5ebcd5439c98f666e8c42eaa0d5c5affab)
+0017.613 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-plugins.zip: plugins: This file has already been successfully uploaded
+0017.636 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-themes.zip: themes: This file has already been successfully uploaded
+0017.659 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-uploads.zip: uploads: This file has already been successfully uploaded
+0017.682 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-others.zip: others: This file has already been successfully uploaded
+0017.695 (0) backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.719 (0) Saving backup history. Total backup size: 39.8 MB
+0017.768 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0017.821 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.855 (0) No remote despatch: user chose no remote backup service
+0017.867 (0) Recording as successfully uploaded: backup_2023-08-01-0225_Nasir_Jones_a8cc4f033c1e-db.gz
+0017.941 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.954 (0) Number of backup sets in history: 1; groups (db): 1
+0017.982 (0) Examining (for databases) backup set with group_id=0, nonce=a8cc4f033c1e, datestamp=1690856714 (Aug 01 2023 02:25:14)
+0017.999 (0) This backup set is the backup set just made, so will not be deleted.
+0017.999 (0) Number of backup sets in history: 1; groups (files): 1
+0018.033 (0) Examining (for files) backup set with nonce=a8cc4f033c1e, datestamp=1690856714 (Aug 01 2023 02:25:14)
+0018.033 (0) This backup set is the backup set just made, so will not be deleted.
+0018.044 (0) This backup set is the backup set just made, so will not be deleted.
+0018.044 (0) This backup set is the backup set just made, so will not be deleted.
+0018.044 (0) This backup set is the backup set just made, so will not be deleted.
+0018.044 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.068 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0018.158 (0) Resume backup (a8cc4f033c1e, 0): finish run
+0018.234 (0) Decremented the semaphore (fd) by 1
+0018.268 (0) Semaphore (fd) unlocked
+0018.286 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.360 (0) No email will/can be sent - the user has not configured an email address.
+0018.470 (0) The backup apparently succeeded and is now complete
